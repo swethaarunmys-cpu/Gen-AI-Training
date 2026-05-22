@@ -609,9 +609,6 @@ import string
 # remove()	Removes the item with the specified value
 # reverse()	Reverses the order of the list
 # sort()	Sorts the list
-<<<<<<< HEAD
-#Updated
-=======
 
 
 # thislist = ["apple", "bana", "cherry"]=== list
@@ -1253,4 +1250,3 @@ thisdict =	{
 
 # update()
 # print(count)
->>>>>>> ccacbdd1facb930c56adcc61c4a1ed6592203ca5
