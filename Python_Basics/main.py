@@ -609,4 +609,648 @@ import string
 # remove()	Removes the item with the specified value
 # reverse()	Reverses the order of the list
 # sort()	Sorts the list
+<<<<<<< HEAD
 #Updated
+=======
+
+
+# thislist = ["apple", "bana", "cherry"]=== list
+# mytuple = ("apple", "banana", "cherry")=== tuple
+# myset = {"apple", "banana", "cherry"}=== set
+
+# thistuple = ("apple", "banana", "cherry")
+# print(thistuple)
+
+# thistuple = ("apple", "banana", "cherry")
+# print(len(thistuple))
+
+
+# thistuple = ("apple",)
+# print(type(thistuple))
+
+# tuple1 = ("abc", 34, True, 40, "male")
+
+# print(tuple1)
+
+# thistuple = ("apple", "banana", "cherry")
+# print(thistuple[1])
+
+# thistuple = ("apple", "banana", "cherry", "orange", "kiwi", "melon", "mango")
+
+# x = ("apple", "banana", "cherry")
+# print(type(x))
+# list1 = list(x)  # Convert the tuple to a list
+# print(type(list1))
+# list1[1] = "kiwi" # Change the second element of the list to "kiwi"
+# print(list1)
+# list1 = tuple(list1) # Convert the list back to a tuple
+# print(type(list1))
+
+# thistuple = ("apple", "banana", "cherry")
+# for x in thistuple:
+#   print(x)
+
+# thistuple = ("apple", "banana", "cherry")
+# for x in thistuple:
+#     pass
+# print(x)
+
+# thistuple = ("apple", "banana", "cherry")
+# for x in thistuple:
+#   pass
+#   print(x)
+# print(x)
+
+# thistuple = ("apple", "banana", "cherry")
+# print(thistuple[1])  # This will raise a TypeError because tuples are immutable and do not support item assignment.
+
+# for i in range(len(thistuple)):  # for i in range(3)
+#   if i == 1:
+#     print(i)
+#     print(thistuple[i])
+
+#   print(thistuple[i]) 
+
+# for i in range(25):
+#     print(i)
+# print(i)
+
+# thistuple = ("apple", "banana", "cherry")
+# i = 0
+# while i < len(thistuple):  #0<3                             #1<3                               #2<3
+#   print(thistuple[i])      #print(thistuple[0])  #apple  #print(thistuple[1])  #banana    #print(thistuple[2])  #cherry
+#   i = i + 1                 #i = 1                       #i = 2                             #i = 3
+
+
+# a = 330
+# b = 200
+# if b > a:  #200 > 330
+#     print("b is greater than a")
+# else:
+#     print("b is not greater than a")
+
+# a = 33
+# b = 200
+# if b > a:
+#     print("b is greater than a") 
+
+
+# age = int(input("Enter your age: "))
+# if age >= 18:   #20 >= 18
+#   print("You are an adult")
+#   print("You can vote")
+#   print("You have full legal rights")
+# else:
+#   print("You are a minor")
+#   print("You cannot vote")
+#   print("You have limited legal rights")
+
+# a = int(input("Enter first number: "))
+# b = int(input("Enter second number: "))
+# if b > a:
+#   print("b is greater than a")
+# elif a == b:
+#   print("a and b are equal")
+# else:  
+#    print("a is greater than b")
+
+# score = 75
+
+# if score >= 90:  #75 >= 90
+#   print("Grade: A")
+# elif score >= 80: #75 >= 80
+#   print("Grade: B")
+# elif score >= 70:#75 >= 70
+#   print("Grade: C")
+# elif score >= 60:
+#   print("Grade: D")
+
+# age = -1
+
+# if age > 0 :
+#   print("You are a child")
+# elif age < 20:
+#   print("You are a teenager")
+# elif age < 65:
+#   print("You are an adult")
+# elif age >= 65 and age < 90:
+#   print("You are a senior")
+# else:
+#   print("Invalid age")
+
+
+# number = int(input("Enter a number: "))
+# if number % 2 == 0:              #5 % 2 == 0==>1 1==0 
+#   print(f"{number} is Even") 
+# else: 
+#   print(f"{number} is Odd")
+
+
+# a = 5
+# b = 2
+# if a > b:print("a is greater than b")
+
+# a = 2
+# b = 330
+# print("A") if a > b else print("B")
+
+# a = 200
+# b = 330
+# c = 500
+# if a > b and c > a:   #200 > 33 and 500 > 200
+#   print("Both conditions are True")
+# else:
+#   print("hello")
+
+
+# a = 200
+# b = 33
+# if not a > b:   #not 200 > 33
+#   print("a is NOT greater than b")
+
+# x = 15
+
+# if x > 10: #41 > 10
+#   print("Above ten,")
+#   if x > 20: #41 > 20
+#     print("and also above 20!")
+#   else:
+#     print("but not above 20.")
+# else:
+#   print("Below or equal to 10!")
+
+# x1 = 4
+# if x1 > 3:
+#   print("Above ten,")
+#   if x1 > 20: #41 > 20
+#     print("and also above 20!!!")
+#   elif x1 < 5:
+#      print("and also above 20!")
+#   else:
+#     print("but not above 20.")
+# else:
+#   print("Below or equal to 1")
+
+# i = 1
+# while i < 6: #1<6  #2<6  #3<6  #4<6  #5<6  #6<6
+#   print(i) #1  #2  #3  #4  #5
+#   i += 1 #i = i + 1 #i = 2  #i = 3  #i = 4  #i = 5  #i = 6 #i = i + 1
+# print(i)
+
+# i = 1
+# while i < 6: #1<6  #2<6  #3<6  #4<6  #5<6  #6<6
+#   print(i)  
+#   if i == 3:  #1==3 #2==3  #3==3
+#     break
+#   i += 1
+
+# i = 0
+# while i < 6:
+#     print(i)
+#     if i == 3:
+#         continue
+#     i += 1
+
+# for r in range(10001):
+#   print(r)
+
+
+# fruits = ["apple", "banana", "cherry"]
+# for x in fruits:
+#   print(x)
+
+# fruits = ["apple", "banana", "cherry"]
+# for x in fruits:
+#   print(x)
+#   if x == "banana":
+#     break
+#   break
+# print("The end of the loop")
+
+# for x in range(6):
+#     break
+#     print(x)
+
+# for x in range(2, 6):
+#   print(x)
+
+# for x in range(2, 33, 3):
+#   print(x)
+
+# for x in range(6):
+#   print(x)
+# else:
+#   print("Finally finished!")
+
+# for x in range(6):
+#   if x == 3: 
+#     continue
+#   print(x)
+# else:
+#   print("Finally finished!")
+
+# thisdict = {
+#   "brand": "Ford",
+#   "model": "Mustang",
+#   "year": 1964
+# }
+# # print(thisdict)
+# print(thisdict["brand"])
+
+# thisdict = {
+#   "brand": "Ford",
+#   "model": "Mustang",
+#   "year": 1964,
+#   "year": 2020
+# }
+# # print(thisdict)
+
+# print(len(thisdict))
+# print(type(thisdict))
+
+# a = "3"
+# print(type(a)) # str
+# int_a = int(a)
+# print(type(int_a)) # int
+# b = 3
+
+# thisdict = {
+#   "brand": "Ford",
+#   "model": "Mustang",
+#   "year": 1964
+# }
+
+# print(thisdict["model"])
+
+# car = {
+# "brand": "Ford",
+# "model": "Mustang",
+# "year": 1964
+# }
+
+# x = car.keys()
+# print(x)
+
+# car["color"] =""
+# print(x)
+
+# print(car["color"])
+
+# car = {
+# "brand": "Ford",
+# "model": "Mustang",
+# "year": 1964
+# }
+
+# x = car.values()
+
+# print(x) #before the change
+
+# car["year"] = 2020
+
+# print(x) #after the change
+
+
+# car = {
+# "brand": "Ford",
+# "model": "Mustang",
+# "year": 1964
+# }
+
+# # print(car)
+# x = car.items()
+# print(x)
+
+
+# thisdict = {
+#   "brand": "Ford",
+#   "model": "Mustang",
+#   "year": 1964
+# }
+# if "hello" in thisdict:
+#   print("Yes, 'hello' is one of the keys in the thisdict dictionary")
+# else:
+#   print("hello")
+
+# thisdict = {
+#   "brand": "Ford",
+#   "model": "Mustang",
+#   "year": 1964
+# }
+# thisdict.update({"year": 2020})
+# print(thisdict)
+
+# thisdict = {
+#   "brand": "my name is vinayaka i am working in gen ai",
+#   "model": 1964,
+#   "year": 1964
+# }
+# # thisdict.popitem()
+# print(thisdict)
+
+# thisdict = {
+#   "brand": "Ford",
+#   "model": "Mustang",
+#   "year": 1964
+# }
+# print(thisdict)
+# thisdict.clear()
+# print(thisdict)
+
+# thisdict =	{
+#   "brand": "Ford",
+#   "model": "Mustang",
+#   "year": 1964
+# }
+
+# for x in thisdict:
+#   print(x)
+
+
+# car = {
+# "brand": "Ford",
+# "model": "Mustang",
+# "year": 1964
+# }
+
+# x = car.keys()
+# print(x)
+
+
+# thisdict =	{
+#   "brand": "Ford",
+#   "model": "Mustang",
+#   "year": 1964
+# }
+# for x in thisdict.values():
+#   print(x)
+
+
+thisdict =	{
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+
+# for x,y in thisdict.items():
+#   print(x,y)
+
+# for x in thisdict:
+#     print(f"{x} {thisdict[x]}")
+
+
+# thisdict = {
+#   "brand": "Ford",
+#   "model": "Mustang",
+#   "year": 1964
+# }
+# print(thisdict)
+# mydict = thisdict.copy()
+# print(mydict)
+
+# myfamily = {
+#   "child1" : {
+#     "name" : "Emil",
+#     "year" : 2004
+#   },
+#   "child2" : {
+#     "name" : "Tobias",
+#     "year" : 2007
+#   },
+#   "child3" : {
+#     "name" : "Linus",
+#     "year" : 2011
+#   }
+# }
+
+# print(myfamily)
+# a = myfamily.items()
+# print(a)
+
+
+# clear()	Removes all the elements from the dictionary
+# copy()	Returns a copy of the dictionary
+# fromkeys()	Returns a dictionary with the specified keys and value
+# get()	Returns the value of the specified key
+# items()	Returns a list containing a tuple for each key value pair
+# keys()	Returns a list containing the dictionary's keys
+# pop()	Removes the element with the specified key
+# popitem()	Removes the last inserted key-value pair
+# setdefault()	Returns the value of the specified key. If the key does not exist: insert the key, with the specified value
+# update()	Updates the dictionary with the specified key-value pairs
+# values()	Returns a list of all the values in the dictionary
+
+# a = 5
+# b = 3
+# c = a + b
+# print(c)
+
+
+
+# def hellos():
+#     a = 5
+#     b = 3
+#     c = a + b
+#     print(c)
+
+# hellos()
+# hellos()
+# hellos()
+
+# def my_function():
+#   print("Hello from a function")
+
+# my_function()
+# my_function()
+# my_function()
+
+
+# def add(a,b): #a = 5, b = 3
+#     c = a + b
+#     print(c)
+
+# add(5,3)
+
+# def add(a,b):  #a = 10, b = 20
+#     c = a + b #c = 10 + 20
+#     print(c) #30
+
+# a = int(input("Enter first number: "))
+# b = int(input("Enter second number: "))
+# add(a,b) #add(10,20)
+
+# def add(c,d):  #a = 10, b = 20
+#     e = c + d #c = 10 + 20
+#     print(e) #30
+
+# a = int(input("Enter first number: "))
+# b = int(input("Enter second number: "))
+# add(a,b) #add(10,20)
+
+# def add(c,d):  #a = 10, b = 20
+#     e = c + d #c = 10 + 20
+#     return e #30
+
+# a = int(input("Enter first number: "))
+# b = int(input("Enter second number: "))
+# y = add(a,b) #add(10,20)
+# z = add(a,b)
+# print(y)
+# print(z)
+
+# def add(c,d):  #a = 10, b = 20
+#     e = c + d #c = 10 + 20
+#     return e #30
+
+# a = int(input("Enter first number: "))
+# b = int(input("Enter second number: "))
+# # y = add(a,b) #add(10,20)
+# print(add(a,b))
+
+
+# def my_function(fname): #fname = "Emil" #fname = "Tobias" #fname = "Linus"
+#   print(fname + " Refsnes")
+
+# my_function("Emil")
+# my_function("Tobias")
+# my_function("Linus")
+
+
+# def my_function(fname, lname):#fname = "Emil"  lname = "Refsnes"`
+#   print(fname + " " + lname)
+
+# my_function("Emil", "Refsnes")
+
+
+# def my_function(fname, lname):
+#   print(fname + " " + lname)
+
+# my_function("Emil")
+
+# def my_function(name = None): #name = "Tobias"
+#   print("Hello", name) #Hello Tobias #Hello friend
+
+
+# my_function("Tobias")
+# my_function()
+
+# def my_function(animal="Dog", name):
+#   print("I have a", animal)
+#   print("My", animal + "'s name is", name)
+
+# my_function(animal, name = "Buddy")
+
+# def my_function(name = "friend"):
+#   print("Hello", name)
+
+# my_function("Emil")
+# my_function("Tobias")
+# my_function()
+# my_function("Linus")
+
+# def adds(a,b=3):
+#     c = a + b
+#     return c
+
+# print(adds(5,3))
+
+# def adds(a=3,b):
+#     c = a + b
+#     return c
+
+# print(adds(5,3))
+
+# def my_function(fruits):
+#   for fruit in fruits:
+#     print(fruit)
+
+# my_fruits = ["apple", "banana", "cherry"]
+# my_function(my_fruits)
+
+
+# def my_function(animal, hey, age):
+#   print("I have a", age, "year old", animal, "named", hey)
+
+# names = "Buddy"
+
+# # my_function("dog", names, age = 5)
+
+# def add(c,d):
+#     return c + d
+    
+# a =3
+# b =4
+# print(add(a,b))
+
+# def add_numbers(*args): #args = (10, 20) #args = (1, 2, 3, 4, 5)``
+#     print(args) #(10, 20) #(1, 2, 3, 4, 5)
+#     print("Sum =", sum(args)) #Sum = 30 #Sum = 15
+
+# add_numbers(10, 20)
+# add_numbers(1, 2, 3, 4, 5)
+
+# def my_function(*kids):
+#   print("The youngest child is " + kids[2])
+#   print("The youngest child is ", kids)
+
+# my_function("Emil", "Tobias", "Linus")
+
+# total = 0
+# def my_function(*numbers): #numbers = (1, 2, 3) #numbers = (10, 20, 30, 40) #numbers = (5,)
+#   for num in numbers:
+#     total += num # total = total + num
+#   print("Total:", total)
+#   return total
+
+# print(my_function(1, 2, 3))
+# print(my_function(10, 20, 30, 40))
+# print(my_function(5))
+
+
+# name = "Vinayak"
+
+# def show():
+#     print(name)
+
+# show()
+
+
+
+# def student():
+#     course = "Python"
+#     print(course)
+
+# student()
+
+
+# def student():
+#     course = "Python"
+
+# student()
+# print(course)
+
+# x =100
+# def show():
+#     y = 200
+#     print("global x:", x)
+#     print(y)
+
+
+# show()
+
+# x =10
+# def test():
+#     x =20
+#     print("inside function x:", x)
+
+# test()
+# print("outside function x:", x)
+
+# count = 1
+# def update():
+#     global count
+#     count += 1
+
+# update()
+# print(count)
+>>>>>>> ccacbdd1facb930c56adcc61c4a1ed6592203ca5
