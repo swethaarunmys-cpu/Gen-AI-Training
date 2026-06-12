@@ -10,7 +10,7 @@ def fixed_chunk(text, chunk_size=50):
         chunks.append(text[i:i+chunk_size])
     return chunks
 
-chunks = fixed_chunk(text, chunk_size=60)
+chunks = fixed_chunk(text, chunk_size=20)
 
 for i, chunk in enumerate(chunks):
     print(f"Chunk {i+1}:\n{chunk}\n")
